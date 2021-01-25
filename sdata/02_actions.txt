@@ -1,0 +1,5 @@
+inform(1,2,ideal_h_te_)
+inform(1,2,val_te_ass_env_land)
+inform(1,2,val_te_ass_intens_med)
+inform(1,2,val_te_ass_loc_mixed)
+inform(1,2,val_te_ass_soc_mixed)

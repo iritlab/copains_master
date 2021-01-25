@@ -1,0 +1,5 @@
+{2}rel(1)
+x_env_land_x
+x_intens_med_x
+not x_loc_indoor_x
+x_cost_high_x => x_soc_mixed_x

@@ -1,0 +1,5 @@
+ideal_h_te_
+val_te_ass_env_land
+val_te_ass_intens_med
+val_te_ass_loc_mixed
+val_te_ass_soc_mixed

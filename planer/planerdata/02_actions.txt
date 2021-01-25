@@ -1,0 +1,4 @@
+inform(1,2,r)
+inform(1,2,p)
+inform(1,2,q)
+inform(1,2,x)

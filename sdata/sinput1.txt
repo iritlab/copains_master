@@ -1,0 +1,1 @@
+({2}not drugcausepain => {2}not ca_u(2,takedrug))

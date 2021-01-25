@@ -1,0 +1,47 @@
+B. solve not asked -- aca_EL INICIO START - JFDX - CogPla
+Estamos ACA ######################################################################### Estamos ACA 
+
+
+
+1
+0 - Propositional Language :  (((((¬bigand $i,$j in [0..2],[0..2]:
+fv1($j)
+end
+ ⋁ ¬bigand $i,$j in [0..2],[0..2]:
+x_env_land_x($j)
+end
+) ⋁ ¬bigand $i,$j in [0..2],[0..2]:
+x_intens_med_x($j)
+end
+) ⋁ bigand $i,$j in [0..2],[0..2]:
+x_loc_indoor_x($j)
+end
+) ⋁ ¬bigand $i,$j in [0..2],[0..2]:
+x_cost_high_x($j)
+end
+) ⋁ bigand $i,$j in [0..2],[0..2]:
+x_soc_mixed_x($j)
+end
+)
+
+
+ Translation to Prop-Lang ===> completed ZZZ ... 
+
+1 x_soc_mixed_x(2)
+0 fv1(0)
+0 x_loc_indoor_x(2)
+0 x_loc_indoor_x(0)
+0 x_intens_med_x(0)
+0 x_intens_med_x(1)
+0 x_loc_indoor_x(1)
+0 x_env_land_x(2)
+1 x_soc_mixed_x(0)
+0 fv1(2)
+0 x_env_land_x(1)
+1 x_soc_mixed_x(1)
+0 x_env_land_x(0)
+0 x_cost_high_x(1)
+0 x_cost_high_x(0)
+0 x_intens_med_x(2)
+0 x_cost_high_x(2)
+0 fv1(1) 

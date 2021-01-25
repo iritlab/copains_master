@@ -1,0 +1,5 @@
+AB_2 = {rel(1)}
+D_2 = {(not ca_u(2,takeDrug),not drugCausePain)}
+CP_2 = {0}
+CN_2 = {badHealth(2)}
+AR_2 = {takeDrug}

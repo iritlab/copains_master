@@ -1,0 +1,2 @@
+inform(1,2,not drugcausepain)
+inform(1,2,not do(2,takedrug) => badhealth(2))

@@ -1,0 +1,11 @@
+red(not ([1](
+{2}rel(1) and
+({2}not drugcausepain => {2}not ca_u(2,takedrug)) and
+({2}(not do(2,takedrug) => badhealth(2)) => {2}ci_u(2,takedrug)) and
+(({2}ci_u(2,takedrug) and {2}not ca_u(2,takedrug)) => intend_2_takedrug)
+)=> plusa({2}(not drugcausepain), 
+[1]
+intend_2_takedrug
+)
+)
+)

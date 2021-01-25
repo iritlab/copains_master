@@ -1,0 +1,3 @@
+x_env_land_x
+x_intens_med_x
+not x_loc_indoor_x

@@ -1,0 +1,5 @@
+(define (domain COPAINS)
+(:action inform[1,2,~drugCausePain])
+(:action inform[1,2,~do[2,takeDrug]=>badHealth[2]])
+)
+

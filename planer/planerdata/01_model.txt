@@ -1,0 +1,5 @@
+({h}rel(1))  and
+({h}drug_secondary_effects => {h}pain_stomach)  and
+({h}not drugcausepain => {h}not ca_u(2,takedrug))  and
+({h}(not do(2,takedrug) => badhealth(2)) => {h}ci_u(2,takedrug))  and
+(({h}ci_u(2,takedrug) and {h}not ca_u(2,takedrug)) => intend_2_takedrug)

@@ -1,0 +1,13 @@
+red(not ([1](
+{2}rel(1) and
+x_env_land_x and
+x_intens_med_x and
+not x_loc_indoor_x
+)=> plusa({2} val_te_ass_soc_mixed, plusa({2} val_te_ass_env_land, plusa({2} ideal_h_te_, 
+[1]
+(({2} ideal_h_di_ and justif_h_di_) or (({2} ideal_h_hr_ and justif_h_hr_) or (({2} ideal_h_ru_ and justif_h_ru_) or (({2} ideal_h_so_ and justif_h_so_) or (({2} ideal_h_sq_ and justif_h_sq_) or (({2} ideal_h_sw_ and justif_h_sw_) or (({2} ideal_h_te_ and justif_h_te_) or ({2} ideal_h_yo_ and justif_h_yo_)))))))))
+)
+)
+)
+)
+

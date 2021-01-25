@@ -1,0 +1,1 @@
+(({2}ci_u(2,takedrug) & {2}not ca_u(2,takedrug)) => intend_2_takedrug)

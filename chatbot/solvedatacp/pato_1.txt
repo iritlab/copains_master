@@ -1,0 +1,5 @@
+plusa[{2}[ideal_h_te_]
+plusa[{2}[val_te_ass_env_land]
+plusa[{2}[val_te_ass_intens_med]
+plusa[{2}[val_te_ass_loc_mixed]
+plusa[{2}[val_te_ass_soc_mixed]

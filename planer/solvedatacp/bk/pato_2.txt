@@ -1,0 +1,2 @@
+plusa[{2}[not drugcausepain]
+plusa[{2}[not do(2,takedrug) => badhealth(2)]

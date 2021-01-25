@@ -1,0 +1,246 @@
+aca_EL INICIO START - JFDX - CogPla
+Aca estamoooooooooooooooooooooooooos : not drugcausepain 
+Aca estamoooooooooooooooooooooooooos : (not do(2,takedrug) => badhealth(2)) 
+Aca estamoooooooooooooooooooooooooos : not ca_u(2,takedrug) 
+Aca estamoooooooooooooooooooooooooos : ci_u(2,takedrug) 
+Aca estamoooooooooooooooooooooooooos : ci_u(2,takedrug) 
+Aca estamoooooooooooooooooooooooooos : (not do(2,takedrug) => badhealth(2)) 
+Aca estamoooooooooooooooooooooooooos : not ca_u(2,takedrug) 
+Aca estamoooooooooooooooooooooooooos : not drugcausepain 
+Aca estamoooooooooooooooooooooooooos : rel(1) 
+0 in: ¬([1]((({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))) ⋀ (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug)) ⇒ plusa({2}(not do(2,takedrug) => badhealth(2)),plusa({2}not drugcausepain,[1]intend_2_takedrug)))
+	1 in: ¬([1]((({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))) ⋀ (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug)) ⇒ plusa({2}(not do(2,takedrug) => badhealth(2)),plusa({2}not drugcausepain,[1]intend_2_takedrug)))
+		2 in: ([1]((({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))) ⋀ (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug)) ⇒ plusa({2}(not do(2,takedrug) => badhealth(2)),plusa({2}not drugcausepain,[1]intend_2_takedrug)))
+			3 in: (¬[1]((({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))) ⋀ (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug)) ⋁ plusa({2}(not do(2,takedrug) => badhealth(2)),plusa({2}not drugcausepain,[1]intend_2_takedrug)))
+		2 out : (¬[1]((({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))) ⋀ (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug)) ⋁ plusa({2}(not do(2,takedrug) => badhealth(2)),plusa({2}not drugcausepain,[1]intend_2_takedrug)))
+		2 in: ¬(¬[1]((({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))) ⋀ (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug)) ⋁ plusa({2}(not do(2,takedrug) => badhealth(2)),plusa({2}not drugcausepain,[1]intend_2_takedrug)))
+			3 in: ¬plusa({2}(not do(2,takedrug) => badhealth(2)),plusa({2}not drugcausepain,[1]intend_2_takedrug))
+				4 in: plusa({2}(not do(2,takedrug) => badhealth(2)),plusa({2}not drugcausepain,[1]intend_2_takedrug))
+					5 in: plusa({2}not drugcausepain,[1]intend_2_takedrug)
+					5 in: {2}(not do(2,takedrug) => badhealth(2))
+Entro x : {2} (not do(2,takedrug) => badhealth(2)), y : plusa({2} not drugcausepain,[1] intend_2_takedrug) 
+					5 in: plusa({2}not drugcausepain,[1]intend_2_takedrug)
+					5 in: {2}(not do(2,takedrug) => badhealth(2))
+				4 out : [1]({2}(not do(2,takedrug) => badhealth(2)) ⇒ plusa({2}not drugcausepain,[1]intend_2_takedrug))
+				4 in: ¬[1]({2}(not do(2,takedrug) => badhealth(2)) ⇒ plusa({2}not drugcausepain,[1]intend_2_takedrug))
+					5 in: ({2}(not do(2,takedrug) => badhealth(2)) ⇒ plusa({2}not drugcausepain,[1]intend_2_takedrug))
+						6 in: (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ plusa({2}not drugcausepain,[1]intend_2_takedrug))
+							7 in: plusa({2}not drugcausepain,[1]intend_2_takedrug)
+								8 in: [1]intend_2_takedrug
+									9 in: intend_2_takedrug
+									9 out : intend_2_takedrug
+								8 out : [1]intend_2_takedrug
+								8 in: {2}not drugcausepain
+%%%%%%%%%%%%%%%%%% XXXX - 222 not drugcausepain  
+								8 out : {2}not drugcausepain
+Entro x : {2} not drugcausepain, y : [1] intend_2_takedrug 
+								8 in: [1]intend_2_takedrug
+									9 in: intend_2_takedrug
+									9 out : intend_2_takedrug
+								8 out : [1]intend_2_takedrug
+								8 in: {2}not drugcausepain
+%%%%%%%%%%%%%%%%%% XXXX - 222 not drugcausepain  
+								8 out : {2}not drugcausepain
+							7 out : [1]({2}not drugcausepain ⇒ [1]intend_2_takedrug)
+							7 in: ¬{2}(not do(2,takedrug) => badhealth(2))
+++++++++++++++++++++++++++++ XXXX (not do(2,takedrug) => badhealth(2))  
+								8 in: {2}(not do(2,takedrug) => badhealth(2))
+%%%%%%%%%%%%%%%%%% XXXX - 222 (not do(2,takedrug) => badhealth(2))  
+								8 out : {2}(not do(2,takedrug) => badhealth(2))
+							7 out : ¬{2}(not do(2,takedrug) => badhealth(2))
+						6 out : (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ [1]({2}not drugcausepain ⇒ [1]intend_2_takedrug))
+					5 out : (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ [1]({2}not drugcausepain ⇒ [1]intend_2_takedrug))
+				4 out : ¬[1](¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ [1]({2}not drugcausepain ⇒ [1]intend_2_takedrug))
+			3 out : ¬[1](¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ [1]({2}not drugcausepain ⇒ [1]intend_2_takedrug))
+			3 in: ¬¬[1]((({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))) ⋀ (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug))
+				4 in: [1]((({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))) ⋀ (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug))
+					5 in: ((({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))) ⋀ (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug))
+						6 in: (({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⇒ intend_2_takedrug)
+							7 in: (¬({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug)) ⋁ intend_2_takedrug)
+								8 in: intend_2_takedrug
+								8 out : intend_2_takedrug
+								8 in: ¬({2}ci_u(2,takedrug) ⋀ {2}not ca_u(2,takedrug))
+									9 in: ¬{2}not ca_u(2,takedrug)
+++++++++++++++++++++++++++++ XXXX not ca_u(2,takedrug)  
+										10 in: {2}not ca_u(2,takedrug)
+%%%%%%%%%%%%%%%%%% XXXX - 222 not ca_u(2,takedrug)  
+										10 out : {2}not ca_u(2,takedrug)
+									9 out : ¬{2}not ca_u(2,takedrug)
+									9 in: ¬{2}ci_u(2,takedrug)
+++++++++++++++++++++++++++++ XXXX ci_u(2,takedrug)  
+										10 in: {2}ci_u(2,takedrug)
+%%%%%%%%%%%%%%%%%% XXXX - 222 ci_u(2,takedrug)  
+										10 out : {2}ci_u(2,takedrug)
+									9 out : ¬{2}ci_u(2,takedrug)
+								8 out : (¬{2}ci_u(2,takedrug) ⋁ ¬{2}not ca_u(2,takedrug))
+							7 out : ((¬{2}ci_u(2,takedrug) ⋁ ¬{2}not ca_u(2,takedrug)) ⋁ intend_2_takedrug)
+						6 out : ((¬{2}ci_u(2,takedrug) ⋁ ¬{2}not ca_u(2,takedrug)) ⋁ intend_2_takedrug)
+						6 in: (({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))) ⋀ ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug)))
+							7 in: ({2}(not do(2,takedrug) => badhealth(2)) ⇒ {2}ci_u(2,takedrug))
+								8 in: (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ {2}ci_u(2,takedrug))
+									9 in: {2}ci_u(2,takedrug)
+%%%%%%%%%%%%%%%%%% XXXX - 222 ci_u(2,takedrug)  
+									9 out : {2}ci_u(2,takedrug)
+									9 in: ¬{2}(not do(2,takedrug) => badhealth(2))
+++++++++++++++++++++++++++++ XXXX (not do(2,takedrug) => badhealth(2))  
+										10 in: {2}(not do(2,takedrug) => badhealth(2))
+%%%%%%%%%%%%%%%%%% XXXX - 222 (not do(2,takedrug) => badhealth(2))  
+										10 out : {2}(not do(2,takedrug) => badhealth(2))
+									9 out : ¬{2}(not do(2,takedrug) => badhealth(2))
+								8 out : (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ {2}ci_u(2,takedrug))
+							7 out : (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ {2}ci_u(2,takedrug))
+							7 in: ({2}rel(1) ⋀ ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug)))
+								8 in: ({2}not drugcausepain ⇒ {2}not ca_u(2,takedrug))
+									9 in: (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug))
+										10 in: {2}not ca_u(2,takedrug)
+%%%%%%%%%%%%%%%%%% XXXX - 222 not ca_u(2,takedrug)  
+										10 out : {2}not ca_u(2,takedrug)
+										10 in: ¬{2}not drugcausepain
+++++++++++++++++++++++++++++ XXXX not drugcausepain  
+											11 in: {2}not drugcausepain
+%%%%%%%%%%%%%%%%%% XXXX - 222 not drugcausepain  
+											11 out : {2}not drugcausepain
+										10 out : ¬{2}not drugcausepain
+									9 out : (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug))
+								8 out : (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug))
+								8 in: {2}rel(1)
+%%%%%%%%%%%%%%%%%% XXXX - 222 rel(1)  
+								8 out : {2}rel(1)
+							7 out : ({2}rel(1) ⋀ (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug)))
+						6 out : (({2}rel(1) ⋀ (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug))) ⋀ (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ {2}ci_u(2,takedrug)))
+					5 out : ((({2}rel(1) ⋀ (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug))) ⋀ (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ {2}ci_u(2,takedrug))) ⋀ ((¬{2}ci_u(2,takedrug) ⋁ ¬{2}not ca_u(2,takedrug)) ⋁ intend_2_takedrug))
+				4 out : [1]((({2}rel(1) ⋀ (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug))) ⋀ (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ {2}ci_u(2,takedrug))) ⋀ ((¬{2}ci_u(2,takedrug) ⋁ ¬{2}not ca_u(2,takedrug)) ⋁ intend_2_takedrug))
+			3 out : [1]((({2}rel(1) ⋀ (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug))) ⋀ (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ {2}ci_u(2,takedrug))) ⋀ ((¬{2}ci_u(2,takedrug) ⋁ ¬{2}not ca_u(2,takedrug)) ⋁ intend_2_takedrug))
+		2 out : ([1]((({2}rel(1) ⋀ (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug))) ⋀ (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ {2}ci_u(2,takedrug))) ⋀ ((¬{2}ci_u(2,takedrug) ⋁ ¬{2}not ca_u(2,takedrug)) ⋁ intend_2_takedrug)) ⋀ ¬[1](¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ [1]({2}not drugcausepain ⇒ [1]intend_2_takedrug)))
+	1 out : ([1]((({2}rel(1) ⋀ (¬{2}not drugcausepain ⋁ {2}not ca_u(2,takedrug))) ⋀ (¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ {2}ci_u(2,takedrug))) ⋀ ((¬{2}ci_u(2,takedrug) ⋁ ¬{2}not ca_u(2,takedrug)) ⋁ intend_2_takedrug)) ⋀ ¬[1](¬{2}(not do(2,takedrug) => badhealth(2)) ⋁ [1]({2}not drugcausepain ⇒ [1]intend_2_takedrug)))
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW CP - 2020 [1] (not {2} (not do(2,takedrug) => badhealth(2)) or [1] ({2} not drugcausepain => [1] intend_2_takedrug))  
+QQ CP - 2020 intend_2_takedrug  
+KK CP - 2020 {2} (not do(2,takedrug) => badhealth(2))  
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW CP - 2020 {2} not ca_u(2,takedrug)  
+QQ CP - 2020 not ca_u(2,takedrug)  
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW CP - 2020 {2} ci_u(2,takedrug)  
+QQ CP - 2020 ci_u(2,takedrug)  
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW CP - 2020 {2} (not do(2,takedrug) => badhealth(2))  
+QQ CP - 2020 (not do(2,takedrug) => badhealth(2))  
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW CP - 2020 {2} not drugcausepain  
+QQ CP - 2020 not drugcausepain  
+COD-19  - COD-19 not drugcausepain - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - 
+ +++> FV_NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM =  1 
+COD-19  - COD-19 not drugcausepain - COD-19 (not do(2,takedrug) => badhealth(2)) - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - 
+ +++> FV_NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM =  2 
+COD-19  - COD-19 not drugcausepain - COD-19 (not do(2,takedrug) => badhealth(2)) - COD-19 not ca_u(2,takedrug) - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - 
+ +++> FV_NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM =  3 
+COD-19  - COD-19 not drugcausepain - COD-19 (not do(2,takedrug) => badhealth(2)) - COD-19 not ca_u(2,takedrug) - COD-19 ci_u(2,takedrug) - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - 
+ +++> FV_NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM =  4 
+COD-19  - COD-19 not drugcausepain - COD-19 (not do(2,takedrug) => badhealth(2)) - COD-19 not ca_u(2,takedrug) - COD-19 ci_u(2,takedrug) - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - 
+ +++> FV_NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM =  4 
+COD-19  - COD-19 not drugcausepain - COD-19 (not do(2,takedrug) => badhealth(2)) - COD-19 not ca_u(2,takedrug) - COD-19 ci_u(2,takedrug) - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - 
+ +++> FV_NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM =  2 
+COD-19  - COD-19 not drugcausepain - COD-19 (not do(2,takedrug) => badhealth(2)) - COD-19 not ca_u(2,takedrug) - COD-19 ci_u(2,takedrug) - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - 
+ +++> FV_NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM =  3 
+COD-19  - COD-19 not drugcausepain - COD-19 (not do(2,takedrug) => badhealth(2)) - COD-19 not ca_u(2,takedrug) - COD-19 ci_u(2,takedrug) - COD-19  - COD-19  - COD-19  - COD-19  - COD-19  - 
+ +++> FV_NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM =  1 
+COD-19  - COD-19 not drugcausepain - COD-19 (not do(2,takedrug) => badhealth(2)) - COD-19 not ca_u(2,takedrug) - COD-19 ci_u(2,takedrug) - COD-19 rel(1) - COD-19  - COD-19  - COD-19  - COD-19  - 
+ +++> FV_NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM =  5 
+0 out : ((((fv5 ⋀ (¬fv1 ⋁ fv3)) ⋀ (¬fv2 ⋁ fv4)) ⋀ ((¬fv4 ⋁ ¬fv3) ⋁ []intend_2_takedrug)) ⋀ (fv2 ⋀ (fv1 ⋀ <>¬intend_2_takedrug)))
+1
+
+
+ Size of the Formula JFDAAA  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT TYPE of FORM ===>  0 
+
+ 
+
+ Size of the Formula JFDXXX  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT TYPE of FORM ===>  1 
+
+ 0 in: ((((fv5 ⋀ (¬fv1 ⋁ fv3)) ⋀ (¬fv2 ⋁ fv4)) ⋀ ((¬fv4 ⋁ ¬fv3) ⋁ []intend_2_takedrug)) ⋀ (fv2 ⋀ (fv1 ⋀ <>¬intend_2_takedrug)))
+	1 in: (fv2 ⋀ (fv1 ⋀ <>¬intend_2_takedrug))
+		2 in: (fv1 ⋀ <>¬intend_2_takedrug)
+			3 in: <>¬intend_2_takedrug
+				4 in: ¬intend_2_takedrug
+				4 out : ¬intend_2_takedrug
+			3 out : <>¬intend_2_takedrug
+			3 in: fv1
+			3 out : fv1
+		2 out : (fv1 ⋀ <>¬intend_2_takedrug)
+		2 in: fv2
+		2 out : fv2
+	1 out : (fv2 ⋀ (fv1 ⋀ <>¬intend_2_takedrug))
+	1 in: (((fv5 ⋀ (¬fv1 ⋁ fv3)) ⋀ (¬fv2 ⋁ fv4)) ⋀ ((¬fv4 ⋁ ¬fv3) ⋁ []intend_2_takedrug))
+		2 in: ((¬fv4 ⋁ ¬fv3) ⋁ []intend_2_takedrug)
+			3 in: []intend_2_takedrug
+				4 in: intend_2_takedrug
+				4 out : intend_2_takedrug
+			3 out : []intend_2_takedrug
+			3 in: (¬fv4 ⋁ ¬fv3)
+				4 in: ¬fv3
+				4 out : ¬fv3
+				4 in: ¬fv4
+				4 out : ¬fv4
+			3 out : (¬fv4 ⋁ ¬fv3)
+		2 out : ((¬fv4 ⋁ ¬fv3) ⋁ []intend_2_takedrug)
+		2 in: ((fv5 ⋀ (¬fv1 ⋁ fv3)) ⋀ (¬fv2 ⋁ fv4))
+			3 in: (¬fv2 ⋁ fv4)
+				4 in: fv4
+				4 out : fv4
+				4 in: ¬fv2
+				4 out : ¬fv2
+			3 out : (¬fv2 ⋁ fv4)
+			3 in: (fv5 ⋀ (¬fv1 ⋁ fv3))
+				4 in: (¬fv1 ⋁ fv3)
+					5 in: fv3
+					5 out : fv3
+					5 in: ¬fv1
+					5 out : ¬fv1
+				4 out : (¬fv1 ⋁ fv3)
+				4 in: fv5
+				4 out : fv5
+			3 out : (fv5 ⋀ (¬fv1 ⋁ fv3))
+		2 out : ((fv5 ⋀ (¬fv1 ⋁ fv3)) ⋀ (¬fv2 ⋁ fv4))
+	1 out : (((fv5 ⋀ (¬fv1 ⋁ fv3)) ⋀ (¬fv2 ⋁ fv4)) ⋀ ((¬fv4 ⋁ ¬fv3) ⋁ []intend_2_takedrug))
+0 out : ((((fv5 ⋀ (¬fv1 ⋁ fv3)) ⋀ (¬fv2 ⋁ fv4)) ⋀ ((¬fv4 ⋁ ¬fv3) ⋁ []intend_2_takedrug)) ⋀ (fv2 ⋀ (fv1 ⋀ <>¬intend_2_takedrug)))
+
+
+ Size of the Formula JFDXXX  ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ dd ===>  30 
+
+ 
+
+ Size of the Formula JFDXXX ===>  30 
+
+ 0 - ((((bigand $i,$j in [0..30],[0..30]:
+fv5($j)
+end
+ ⋀ (¬bigand $i,$j in [0..30],[0..30]:
+fv1($j)
+end
+ ⋁ bigand $i,$j in [0..30],[0..30]:
+fv3($j)
+end
+)) ⋀ (¬bigand $i,$j in [0..30],[0..30]:
+fv2($j)
+end
+ ⋁ bigand $i,$j in [0..30],[0..30]:
+fv4($j)
+end
+)) ⋀ ((¬bigand $i,$j in [0..30],[0..30]:
+fv4($j)
+end
+ ⋁ ¬bigand $i,$j in [0..30],[0..30]:
+fv3($j)
+end
+) ⋁ bigand $i,$j in [0..30],[0..30]:
+(r_($i,$j) ⇒ intend_2_takedrug($j))
+end
+)) ⋀ (bigand $i,$j in [0..30],[0..30]:
+fv2($j)
+end
+ ⋀ (bigand $i,$j in [0..30],[0..30]:
+fv1($j)
+end
+ ⋀ bigand $i,$j in [0..30],[0..30]:
+(r_($i,$j) ⋀ ¬intend_2_takedrug($j))
+end
+)))
+
+
+ Translation to Prop-Lang ===> completed ... 
+

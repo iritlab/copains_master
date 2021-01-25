@@ -1,0 +1,1 @@
+nff(not ((<a> (([a] (not ([a]p14) or (not (p13 or p3)))))) or ((not (<a> (((<a> [a] p15) or (p14 => p15) and (<a> p5)) => ((<a> not p9) or ([a] p2) and ([a] p5)))) and not (not (not p12 or p4 and p6) and (<a> [a] p7))) => (not ([a] (not ((p10 => p2) or p10 and p12) or not ([a] p7) and (<a> not p6))) or ([a] not (([a] (p8 or (p1 => p9))) and ([a] (not p13 and not p6))))))) )

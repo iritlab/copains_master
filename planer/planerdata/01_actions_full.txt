@@ -1,0 +1,6 @@
+:plusa({h}(not drugCausePain)) 				:type(i)	:prec({2}rel(1))
+:plusa({h}(not do(2,takeDrug) => badHealth(2)))		:type(i)	:prec({2}rel(1))
+:plusa({h}feelGood)					:type(q)	:prec()
+:plusa({h}1_goWalk|2_meetFriends) 			:type(q)	:prec({2}feelGood)
+:plusa({h}1_haveFever|2_havePain|3_feelTired) 		:type(q)	:prec({2}not feelGood)
+:plusa({h}drugCausePain) 				:type(q)	:prec({2}havePain)

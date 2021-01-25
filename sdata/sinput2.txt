@@ -1,0 +1,1 @@
+({2}(not do(2,takedrug) => badhealth(2)) => {2}ci_u(2,takedrug))

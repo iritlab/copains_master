@@ -1,0 +1,1 @@
+plusa({2}(not do(2,takedrug) => badhealth(2)), plusa({2}(not drugcausepain), 

@@ -1,0 +1,104 @@
+$Opt        = [sw, ru, hr, te, so, yo, di, sq]
+
+;;$Opt        = [sw, ru, te]
+;;$Opt        = [sw, ru, hr, te]
+;;$Opt        = [sw, ru, hr, te, so]
+;;$Opt        = [sw, ru, hr, te, so, yo]
+;;$Opt        = [sw, ru, hr, te, so, yo, di]
+
+;;$Var = [env, loc, soc, cost, danger, intens]
+
+;;$Var = [env, loc, soc]
+;;$Var = [env, loc, soc, cost]
+;;$Var = [env, loc, soc, cost, danger]
+$Var = [env, loc, soc, cost, danger, intens]
+
+
+$Val(env)       = [land,water]
+$Val(loc) 	    = [indoor, outdoor, mixed]
+$Val(soc) 	    = [single, team, mixed]
+$Val(cost) 	    = [low, med, high]
+$Val(danger) 	= [low, med, high]
+$Val(intens) 	= [low, med, high]
+
+
+$Table(sw) = ["ass(env,water)", "ass(loc,mixed)", "ass(soc,single)", "ass(cost,med)", "ass(danger,low)", "ass(intens,high)"]
+$Table(ru) = ["ass(env,land)", "ass(loc,outdoor)", "ass(soc,single)", "ass(cost,low)", "ass(danger,med)", "ass(intens,high)"]
+$Table(hr) = ["ass(env,land)", "ass(loc,outdoor)", "ass(soc,single)", "ass(cost,high)", "ass(danger,high)", "ass(intens,low)"]
+$Table(te) = ["ass(env,land)", "ass(loc,mixed)", "ass(soc,mixed)", "ass(cost,high)", "ass(danger,med)", "ass(intens,med)"]
+$Table(so) = ["ass(env,land)", "ass(loc,mixed)", "ass(soc,team)", "ass(cost,med)", "ass(danger,med)", "ass(intens,med)"]
+$Table(yo) = ["ass(env,land)", "ass(loc,mixed)", "ass(soc,single)", "ass(cost,med)", "ass(danger,low)", "ass(intens,low)"]
+$Table(di) = ["ass(env,water)", "ass(loc,mixed)", "ass(soc,single)", "ass(cost,high)", "ass(danger,high)", "ass(intens,low)"]
+$Table(sq) = ["ass(env,land)", "ass(loc,indoor)", "ass(soc,mixed)", "ass(cost,high)", "ass(danger,med)", "ass(intens,med)"]
+
+
+
+
+
+
+;; alfa_1*
+bigand $o, $x, $v1, $v2 in $Opt, $Var, $Val($x), $Val($x) when $v1 != $v2:
+    val($o,ass($x,$v1,_x)) => not val($o,ass($x,$v2,_x))
+end
+and
+
+
+;; alfa_2
+bigand $o, $x, $v1, $v2 in $Opt, $Var, $Val($x), $Val($x) when $v1 != $v2:
+    th_val($o,ass($x,$v1,_x)) => not th_val($o,ass($x,$v2,_x))
+end
+and
+
+
+
+;;alfa_5	
+bigand $o in $Opt :
+    	ideal(h,$o) <=> ( (bigand $d0,$i,$e in $Delta0, [1..$n1], $Delta0_1($i) when $d0 in $Delta0_1($i):
+                                        val($o,$e) 
+                            end) and
+
+                        (bigand $d0,$i,$e in $Delta0, [1..$n2], $Delta0_2($i,1) when $d0 in $Delta0_2($i):
+                                        not val($o,$e) 
+                            end) and                                                        
+                            
+                        (bigand $d0, $i, $p, $c in $Delta0, [1..$n3], $Delta0_3($i,1), $Delta0_3($i,2) when $d0 in $Delta0_3($i):
+                                        not val($o,$p) or  val($o,$c)
+                            end) )
+                            
+end
+and
+
+;;alfa_6	
+bigand $o in $Opt :
+    	justif(h,$o) <=> ( (bigand $d0,$i,$e in $Delta0, [1..$n1], $Delta0_1($i) when $d0 in $Delta0_1($i):
+                                        th_val($o,$e)
+                            end) and
+
+                        (bigand $d0,$i,$e in $Delta0, [1..$n2], $Delta0_2($i,1) when $d0 in $Delta0_2($i):
+                                        not th_val($o,$e)
+                            end) and                                                        
+                            
+                        (bigand $d0, $i, $p, $c in $Delta0, [1..$n3], $Delta0_3($i,1), $Delta0_3($i,2) when $d0 in $Delta0_3($i):
+                                        not th_val($o,$p) or  th_val($o,$c)
+                            end) )
+                            
+end
+and
+
+;;alfa_7*	
+bigand $o, $t in $Opt, $Table($o) :
+    val($o,$t)
+end
+and
+
+
+px
+
+and 
+
+;;alfa_goal
+(
+bigor $o in $Opt : 					
+	(th_ideal(h,$o,_x) and justif(h,$o,_x))
+end
+)

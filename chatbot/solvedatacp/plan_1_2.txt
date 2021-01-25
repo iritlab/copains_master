@@ -1,0 +1,4366 @@
+B. solve not asked 
+Starting the process 
+
+
+1
+0 - Propositional Language :  ((((((((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_soc_single($j))
+end
+))))))))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_soc_single($j))
+end
+)))))))))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_soc_single($j))
+end
+))))))))) ⋀ (((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_soc_single($j))
+end
+))))))))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_cost_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_danger_low($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_env_water($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_env_water($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_env_land($j))
+end
+)) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_low($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_high($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_med($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_low($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_med($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_high($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_med($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_intens_low($j))
+end
+)))) ⋀ ((((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_indoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_outdoor($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_outdoor($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_indoor($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_outdoor($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_loc_mixed($j))
+end
+)))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_single($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_mixed($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_team($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_single($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_team($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_mixed($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_team($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_soc_single($j))
+end
+))))))))))))))))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬ideal_h_di_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_di_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_di_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ideal_h_di_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬ideal_h_hr_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_hr_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_hr_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ideal_h_hr_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬ideal_h_ru_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_ru_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_ru_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ideal_h_ru_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬ideal_h_so_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_so_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_so_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ideal_h_so_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬ideal_h_sq_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sq_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sq_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ideal_h_sq_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬ideal_h_sw_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sw_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_sw_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ideal_h_sw_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬ideal_h_te_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_te_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_te_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ideal_h_te_($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬ideal_h_yo_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_yo_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬val_yo_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ideal_h_yo_($j))
+end
+)))))))))) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬justif_h_di_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ th_val_di_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_di_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ justif_h_di_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬justif_h_hr_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ th_val_hr_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_hr_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ justif_h_hr_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬justif_h_ru_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ th_val_ru_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_ru_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ justif_h_ru_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬justif_h_so_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ th_val_so_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_so_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ justif_h_so_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬justif_h_sq_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ th_val_sq_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sq_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ justif_h_sq_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬justif_h_sw_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ th_val_sw_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_sw_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ justif_h_sw_($j))
+end
+)) ⋀ (((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬justif_h_te_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ th_val_te_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_te_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ justif_h_te_($j))
+end
+)) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬justif_h_yo_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ th_val_yo_ass_env_land($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬th_val_yo_ass_env_land($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ justif_h_yo_($j))
+end
+)))))))))) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_di_ass_cost_high($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_di_ass_danger_high($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_di_ass_env_water($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_di_ass_intens_low($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_di_ass_loc_mixed($j))
+end
+ ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_di_ass_soc_single($j))
+end
+))))) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_hr_ass_cost_high($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_hr_ass_danger_high($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_hr_ass_env_land($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_hr_ass_intens_low($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_hr_ass_loc_outdoor($j))
+end
+ ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_hr_ass_soc_single($j))
+end
+))))) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_ru_ass_cost_low($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_ru_ass_danger_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_ru_ass_env_land($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_ru_ass_intens_high($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_ru_ass_loc_outdoor($j))
+end
+ ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_ru_ass_soc_single($j))
+end
+))))) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_so_ass_cost_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_so_ass_danger_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_so_ass_env_land($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_so_ass_intens_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_so_ass_loc_mixed($j))
+end
+ ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_so_ass_soc_team($j))
+end
+))))) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sq_ass_cost_high($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sq_ass_danger_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sq_ass_env_land($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sq_ass_intens_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sq_ass_loc_indoor($j))
+end
+ ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sq_ass_soc_mixed($j))
+end
+))))) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sw_ass_cost_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sw_ass_danger_low($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sw_ass_env_water($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sw_ass_intens_high($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sw_ass_loc_mixed($j))
+end
+ ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_sw_ass_soc_single($j))
+end
+))))) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_te_ass_cost_high($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_te_ass_danger_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_te_ass_env_land($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_te_ass_intens_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_te_ass_loc_mixed($j))
+end
+ ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_te_ass_soc_mixed($j))
+end
+))))) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_yo_ass_cost_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_yo_ass_danger_low($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_yo_ass_env_land($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_yo_ass_intens_low($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_yo_ass_loc_mixed($j))
+end
+ ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ val_yo_ass_soc_single($j))
+end
+))))))))))))) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ th_val_te_ass_env_land($j))
+end
+ ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_di_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_di_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_hr_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_hr_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_ru_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_ru_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_so_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_so_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_sq_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_sq_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_sw_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_sw_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_te_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_te_($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_yo_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_yo_($j))
+end
+))))))))))
+
+
+ Translation to L_Prop completed ... 
+
+0 justif_h_yo_(2)
+0 th_val_sq_ass_cost_med(0)
+1 val_sw_ass_intens_high(2)
+1 val_ru_ass_soc_single(1)
+0 val_sw_ass_loc_outdoor(0)
+0 val_so_ass_cost_low(1)
+0 val_hr_ass_loc_indoor(0)
+0 th_val_ru_ass_danger_low(0)
+0 val_yo_ass_intens_med(1)
+0 th_val_yo_ass_loc_mixed(2)
+0 th_val_di_ass_intens_high(0)
+0 th_val_sw_ass_intens_low(0)
+1 val_sw_ass_loc_mixed(2)
+0 th_val_sq_ass_env_land(0)
+0 th_val_sq_ass_soc_single(1)
+0 val_ru_ass_soc_mixed(2)
+1 val_sw_ass_env_water(0)
+0 ideal_h_di_(2)
+0 val_sq_ass_loc_outdoor(1)
+0 th_val_so_ass_loc_mixed(2)
+0 th_val_te_ass_cost_low(2)
+0 val_ru_ass_cost_med(0)
+0 th_val_yo_ass_loc_outdoor(2)
+0 th_val_ru_ass_cost_high(2)
+0 th_val_sq_ass_danger_med(2)
+0 th_val_sw_ass_loc_mixed(1)
+0 th_val_so_ass_env_land(2)
+0 th_ideal_h_ru_(1)
+0 th_val_sw_ass_loc_outdoor(2)
+0 th_val_di_ass_loc_mixed(2)
+0 val_di_ass_soc_team(2)
+0 th_val_te_ass_intens_high(1)
+0 val_so_ass_loc_indoor(1)
+0 val_sw_ass_intens_low(2)
+0 th_val_sq_ass_danger_med(0)
+0 th_val_yo_ass_intens_med(0)
+0 th_val_sw_ass_env_land(0)
+1 val_di_ass_soc_single(2)
+0 th_val_sw_ass_loc_mixed(2)
+1 val_yo_ass_soc_single(2)
+0 val_ru_ass_intens_low(0)
+1 val_di_ass_soc_single(0)
+0 val_hr_ass_cost_low(0)
+0 th_val_te_ass_intens_med(1)
+0 th_val_te_ass_loc_indoor(0)
+0 th_val_so_ass_cost_low(2)
+0 justif_h_di_(2)
+0 val_sq_ass_intens_low(0)
+0 th_val_hr_ass_intens_high(1)
+0 val_sw_ass_intens_med(0)
+0 justif_h_so_(0)
+0 val_hr_ass_intens_high(2)
+0 th_val_te_ass_soc_team(2)
+0 val_te_ass_soc_single(1)
+0 th_val_di_ass_soc_team(2)
+0 val_sq_ass_danger_low(1)
+0 val_te_ass_cost_low(1)
+0 val_te_ass_loc_indoor(0)
+0 th_val_yo_ass_loc_indoor(1)
+0 th_val_yo_ass_env_land(0)
+0 val_sq_ass_soc_single(1)
+0 th_val_ru_ass_intens_high(2)
+0 th_val_ru_ass_soc_single(1)
+1 ideal_h_ru_(0)
+1 val_te_ass_danger_med(2)
+0 th_ideal_h_so_(0)
+0 th_val_te_ass_danger_low(1)
+0 th_val_sq_ass_loc_outdoor(1)
+0 th_val_sw_ass_cost_high(0)
+0 th_val_yo_ass_cost_low(1)
+0 val_di_ass_danger_med(2)
+0 val_so_ass_danger_high(2)
+0 val_so_ass_soc_mixed(0)
+0 val_sq_ass_soc_team(0)
+0 th_ideal_h_sq_(2)
+1 val_te_ass_soc_mixed(2)
+0 th_val_te_ass_danger_low(2)
+0 th_val_te_ass_loc_outdoor(0)
+1 val_sw_ass_loc_mixed(0)
+0 val_di_ass_soc_team(1)
+0 val_sq_ass_intens_high(1)
+0 val_yo_ass_loc_outdoor(0)
+0 th_val_hr_ass_loc_outdoor(2)
+0 th_val_yo_ass_cost_high(2)
+1 val_hr_ass_danger_high(1)
+0 th_val_ru_ass_env_water(1)
+0 th_ideal_h_so_(1)
+0 th_val_hr_ass_intens_high(2)
+0 th_val_hr_ass_intens_low(2)
+0 th_val_ru_ass_loc_outdoor(2)
+0 th_val_yo_ass_loc_mixed(1)
+0 th_val_hr_ass_intens_med(2)
+1 val_yo_ass_loc_mixed(0)
+0 th_val_ru_ass_danger_med(2)
+0 th_val_di_ass_soc_single(1)
+0 val_so_ass_danger_low(2)
+0 th_val_ru_ass_danger_low(2)
+0 th_val_yo_ass_intens_low(1)
+0 val_di_ass_intens_med(0)
+0 val_sw_ass_loc_outdoor(2)
+1 val_di_ass_cost_high(2)
+1 val_te_ass_loc_mixed(0)
+0 th_val_so_ass_loc_mixed(0)
+0 th_val_ru_ass_cost_med(1)
+0 th_val_te_ass_soc_team(0)
+0 val_sw_ass_intens_low(1)
+0 th_ideal_h_hr_(0)
+1 val_ru_ass_danger_med(2)
+0 val_so_ass_danger_low(1)
+0 th_val_hr_ass_danger_med(2)
+1 val_ru_ass_env_land(2)
+0 val_ru_ass_danger_high(0)
+0 val_sw_ass_loc_indoor(1)
+0 th_val_yo_ass_soc_mixed(1)
+1 val_ru_ass_intens_high(0)
+0 th_val_hr_ass_cost_high(1)
+0 th_val_sw_ass_loc_outdoor(0)
+0 val_hr_ass_env_water(0)
+1 val_yo_ass_env_land(1)
+0 val_sq_ass_cost_med(0)
+0 justif_h_so_(1)
+0 val_sq_ass_danger_high(0)
+0 th_val_so_ass_soc_single(0)
+0 val_hr_ass_cost_low(2)
+0 th_val_sw_ass_intens_low(2)
+0 justif_h_di_(1)
+0 val_yo_ass_loc_indoor(1)
+0 th_val_sq_ass_intens_med(1)
+1 val_ru_ass_soc_single(0)
+1 val_hr_ass_danger_high(2)
+0 th_val_ru_ass_cost_low(1)
+1 val_di_ass_env_water(2)
+0 val_di_ass_cost_low(0)
+0 val_ru_ass_intens_low(2)
+0 th_val_te_ass_danger_med(0)
+0 th_val_sw_ass_intens_high(2)
+1 th_val_te_ass_env_land(2)
+0 th_val_so_ass_soc_single(1)
+0 th_val_ru_ass_cost_high(1)
+1 val_di_ass_intens_low(2)
+1 val_sq_ass_intens_med(2)
+0 val_sw_ass_danger_med(0)
+0 val_te_ass_soc_team(1)
+0 th_val_ru_ass_danger_low(1)
+0 th_val_te_ass_cost_med(2)
+0 justif_h_so_(2)
+0 val_di_ass_loc_outdoor(0)
+0 val_ru_ass_intens_low(1)
+1 val_te_ass_soc_mixed(0)
+0 th_val_hr_ass_soc_single(1)
+0 th_val_sq_ass_cost_low(1)
+0 val_hr_ass_cost_low(1)
+1 val_sw_ass_env_water(2)
+0 val_di_ass_loc_indoor(2)
+0 th_val_te_ass_soc_mixed(2)
+1 th_val_te_ass_env_land(1)
+0 th_val_te_ass_cost_med(0)
+1 val_te_ass_env_land(2)
+0 val_sq_ass_env_water(1)
+0 th_val_so_ass_danger_low(1)
+0 val_so_ass_loc_outdoor(2)
+0 th_val_hr_ass_loc_mixed(2)
+0 th_val_sq_ass_loc_indoor(2)
+0 val_te_ass_loc_outdoor(1)
+0 val_te_ass_soc_team(2)
+0 th_val_sq_ass_loc_outdoor(2)
+0 th_val_sw_ass_danger_low(0)
+0 val_hr_ass_cost_med(1)
+0 th_val_di_ass_env_land(0)
+0 th_val_te_ass_danger_low(0)
+0 th_val_yo_ass_soc_single(1)
+0 th_val_sw_ass_danger_low(2)
+0 th_val_ru_ass_env_water(2)
+0 val_yo_ass_intens_med(0)
+0 val_te_ass_loc_indoor(1)
+0 val_sw_ass_intens_med(2)
+1 val_sq_ass_cost_high(0)
+0 val_so_ass_loc_outdoor(0)
+0 val_yo_ass_soc_mixed(1)
+0 th_val_te_ass_intens_high(0)
+1 r_(0,0)
+1 val_hr_ass_cost_high(1)
+0 th_val_sw_ass_intens_med(1)
+0 th_val_yo_ass_cost_high(0)
+0 th_val_yo_ass_soc_team(1)
+0 val_di_ass_soc_team(0)
+1 justif_h_te_(2)
+0 th_val_di_ass_loc_indoor(1)
+0 th_val_te_ass_intens_high(2)
+1 ideal_h_sq_(0)
+0 th_val_so_ass_cost_high(1)
+0 th_val_sw_ass_intens_med(2)
+0 th_val_yo_ass_env_land(1)
+0 th_val_sw_ass_env_water(1)
+0 ideal_h_di_(1)
+0 val_ru_ass_loc_mixed(2)
+0 th_val_yo_ass_cost_low(0)
+0 th_val_di_ass_loc_indoor(0)
+0 val_yo_ass_danger_med(1)
+0 val_hr_ass_danger_low(0)
+0 val_so_ass_env_water(1)
+0 th_val_so_ass_soc_mixed(1)
+0 th_val_te_ass_cost_low(0)
+0 val_yo_ass_soc_team(1)
+0 val_di_ass_soc_mixed(0)
+0 th_val_sq_ass_danger_low(1)
+0 th_val_sq_ass_intens_med(2)
+1 val_di_ass_env_water(1)
+0 th_val_sw_ass_loc_indoor(1)
+0 th_val_sq_ass_cost_med(1)
+0 val_ru_ass_cost_med(1)
+1 val_yo_ass_intens_low(1)
+1 val_di_ass_loc_mixed(1)
+1 val_te_ass_danger_med(1)
+0 val_sw_ass_soc_mixed(1)
+0 th_val_yo_ass_danger_low(0)
+0 th_val_yo_ass_intens_med(1)
+0 th_val_hr_ass_env_land(0)
+1 val_di_ass_env_water(0)
+0 val_ru_ass_cost_high(0)
+0 val_ru_ass_env_water(2)
+0 val_di_ass_intens_high(0)
+0 th_val_sw_ass_cost_high(2)
+0 val_te_ass_cost_low(0)
+0 val_hr_ass_danger_low(2)
+0 val_so_ass_cost_low(2)
+0 th_val_ru_ass_env_land(2)
+0 th_val_sw_ass_intens_low(1)
+0 th_val_te_ass_loc_mixed(1)
+0 th_val_yo_ass_soc_mixed(0)
+1 val_sw_ass_cost_med(1)
+0 val_hr_ass_loc_mixed(0)
+0 th_val_yo_ass_loc_outdoor(1)
+0 val_sw_ass_soc_team(2)
+0 th_val_sw_ass_env_water(0)
+0 val_hr_ass_loc_mixed(1)
+1 r_(1,1)
+0 val_sw_ass_danger_med(1)
+0 val_te_ass_intens_low(0)
+0 th_val_di_ass_danger_med(1)
+0 th_val_di_ass_loc_outdoor(0)
+0 th_val_yo_ass_soc_single(0)
+0 th_val_ru_ass_loc_mixed(0)
+0 val_so_ass_loc_indoor(2)
+0 val_te_ass_cost_med(2)
+1 val_ru_ass_loc_outdoor(2)
+0 val_di_ass_cost_low(1)
+0 th_ideal_h_sw_(0)
+0 val_sw_ass_cost_low(1)
+0 val_sw_ass_intens_med(1)
+0 th_val_hr_ass_soc_team(1)
+0 th_val_yo_ass_loc_indoor(0)
+1 val_so_ass_danger_med(1)
+0 th_val_so_ass_intens_med(1)
+0 val_hr_ass_soc_team(2)
+0 val_di_ass_env_land(2)
+0 th_val_so_ass_env_water(1)
+0 th_val_sq_ass_intens_low(2)
+0 th_val_sq_ass_soc_team(1)
+1 val_sw_ass_danger_low(1)
+1 val_ru_ass_cost_low(0)
+0 th_val_so_ass_intens_low(2)
+0 th_ideal_h_ru_(0)
+1 val_sw_ass_soc_single(0)
+0 val_te_ass_intens_high(2)
+1 val_te_ass_danger_med(0)
+1 val_hr_ass_loc_outdoor(0)
+1 val_sw_ass_intens_high(1)
+0 th_val_sw_ass_cost_low(0)
+0 val_ru_ass_cost_high(2)
+0 val_te_ass_danger_high(1)
+1 val_sw_ass_loc_mixed(1)
+0 th_val_di_ass_danger_low(0)
+0 th_val_sq_ass_env_water(2)
+0 th_val_di_ass_danger_low(2)
+0 justif_h_sq_(0)
+0 th_val_sw_ass_danger_high(1)
+0 val_ru_ass_intens_med(0)
+0 val_di_ass_intens_med(1)
+1 val_hr_ass_soc_single(0)
+1 val_sw_ass_cost_med(2)
+0 val_sq_ass_soc_single(2)
+0 th_val_sq_ass_intens_high(2)
+1 val_ru_ass_loc_outdoor(1)
+0 th_val_hr_ass_danger_med(1)
+0 val_yo_ass_danger_high(2)
+0 th_val_te_ass_env_water(0)
+1 r_(2,2)
+0 th_val_ru_ass_cost_med(0)
+1 val_so_ass_intens_med(0)
+0 th_val_te_ass_intens_med(0)
+0 val_ru_ass_loc_mixed(0)
+0 val_hr_ass_soc_mixed(0)
+0 val_so_ass_env_water(2)
+1 justif_h_te_(1)
+0 val_sq_ass_loc_mixed(0)
+0 val_te_ass_intens_low(2)
+1 val_hr_ass_env_land(2)
+0 val_so_ass_soc_single(1)
+0 th_val_so_ass_danger_high(2)
+0 th_val_ru_ass_loc_indoor(0)
+0 val_sw_ass_soc_mixed(2)
+0 th_val_hr_ass_cost_med(2)
+0 th_val_so_ass_env_water(0)
+0 th_val_hr_ass_intens_med(1)
+0 th_val_sq_ass_danger_high(2)
+0 val_ru_ass_soc_team(2)
+1 ideal_h_yo_(1)
+1 val_ru_ass_loc_outdoor(0)
+1 val_di_ass_intens_low(1)
+1 val_yo_ass_soc_single(1)
+0 th_val_sw_ass_danger_med(1)
+0 th_val_hr_ass_soc_single(2)
+0 th_val_ru_ass_soc_single(2)
+0 th_val_di_ass_danger_med(0)
+0 val_te_ass_intens_low(1)
+1 r_(0,1)
+0 val_ru_ass_danger_high(1)
+0 th_val_di_ass_intens_high(1)
+0 val_sq_ass_soc_team(2)
+0 th_val_hr_ass_cost_high(2)
+0 val_sq_ass_danger_high(1)
+0 th_val_yo_ass_soc_single(2)
+1 val_ru_ass_env_land(0)
+0 val_sq_ass_intens_high(2)
+0 th_val_ru_ass_soc_team(0)
+0 th_val_di_ass_cost_high(1)
+0 val_sq_ass_soc_single(0)
+0 val_so_ass_danger_low(0)
+0 val_sw_ass_soc_mixed(0)
+0 val_sw_ass_env_land(0)
+0 th_val_ru_ass_danger_high(2)
+0 th_val_sw_ass_cost_high(1)
+0 val_di_ass_env_land(0)
+0 val_hr_ass_env_water(1)
+0 th_val_sq_ass_cost_high(0)
+0 th_val_yo_ass_cost_med(1)
+0 th_val_sw_ass_env_land(1)
+0 th_val_ru_ass_intens_low(0)
+0 th_val_di_ass_loc_outdoor(2)
+0 th_val_ru_ass_danger_high(0)
+0 th_val_te_ass_cost_high(1)
+1 val_te_ass_intens_med(0)
+0 val_sq_ass_danger_low(2)
+1 val_sw_ass_danger_low(2)
+0 th_val_sw_ass_loc_indoor(2)
+0 th_val_sq_ass_loc_indoor(0)
+0 justif_h_sw_(2)
+0 th_val_so_ass_loc_indoor(0)
+0 th_val_yo_ass_cost_med(0)
+0 val_sw_ass_intens_low(0)
+0 th_val_so_ass_soc_mixed(0)
+0 val_sw_ass_soc_team(0)
+0 val_yo_ass_cost_low(1)
+0 val_ru_ass_soc_team(1)
+0 val_so_ass_soc_single(0)
+0 th_val_hr_ass_loc_outdoor(1)
+0 th_val_so_ass_env_land(1)
+0 val_sq_ass_danger_low(0)
+1 val_hr_ass_danger_high(0)
+0 th_val_sw_ass_danger_med(0)
+0 th_val_di_ass_soc_single(2)
+0 val_yo_ass_intens_high(2)
+0 val_yo_ass_intens_med(2)
+0 th_val_di_ass_env_land(1)
+0 th_val_di_ass_intens_med(1)
+0 val_so_ass_soc_mixed(2)
+0 th_val_sw_ass_soc_mixed(1)
+0 th_val_ru_ass_soc_single(0)
+0 th_val_te_ass_intens_low(0)
+1 val_sq_ass_intens_med(1)
+1 val_sq_ass_cost_high(2)
+0 val_sq_ass_soc_team(1)
+0 th_val_so_ass_danger_low(0)
+0 th_ideal_h_sw_(1)
+0 th_val_yo_ass_danger_low(1)
+0 justif_h_hr_(1)
+0 th_ideal_h_te_(2)
+1 ideal_h_sq_(1)
+1 val_sq_ass_env_land(2)
+0 th_val_so_ass_soc_team(0)
+1 val_sq_ass_danger_med(2)
+1 r_(0,2)
+0 th_val_hr_ass_soc_team(2)
+0 th_val_sq_ass_env_land(2)
+0 th_val_sw_ass_cost_low(2)
+1 val_so_ass_cost_med(1)
+0 th_val_di_ass_cost_high(2)
+0 th_val_hr_ass_cost_low(1)
+0 th_val_te_ass_danger_med(2)
+0 th_val_yo_ass_loc_indoor(2)
+0 val_di_ass_cost_med(1)
+0 val_hr_ass_intens_med(1)
+0 th_val_sw_ass_cost_med(1)
+0 val_sq_ass_cost_low(2)
+0 val_sq_ass_intens_low(2)
+1 val_so_ass_cost_med(2)
+1 val_sq_ass_soc_mixed(1)
+0 th_val_hr_ass_danger_high(1)
+1 val_di_ass_danger_high(0)
+0 val_sw_ass_soc_team(1)
+0 th_val_so_ass_danger_med(0)
+0 th_val_te_ass_loc_mixed(0)
+0 val_so_ass_intens_high(0)
+0 val_hr_ass_soc_team(0)
+0 th_val_sw_ass_soc_single(2)
+0 th_val_ru_ass_intens_med(0)
+0 th_val_yo_ass_danger_low(2)
+0 val_so_ass_env_water(0)
+0 val_te_ass_loc_outdoor(0)
+0 th_val_yo_ass_intens_med(2)
+0 th_val_di_ass_loc_indoor(2)
+0 val_yo_ass_cost_high(2)
+0 val_te_ass_cost_med(0)
+0 val_sq_ass_danger_high(2)
+0 th_val_sq_ass_soc_mixed(2)
+0 justif_h_sq_(2)
+0 val_te_ass_soc_single(2)
+0 th_val_di_ass_intens_med(2)
+0 th_val_so_ass_soc_mixed(2)
+0 th_val_te_ass_loc_indoor(2)
+0 th_val_hr_ass_intens_med(0)
+1 r_(1,2)
+0 val_yo_ass_loc_indoor(0)
+0 th_val_te_ass_env_water(1)
+0 th_val_yo_ass_loc_mixed(0)
+1 ideal_h_ru_(1)
+0 th_ideal_h_di_(2)
+0 val_so_ass_soc_single(2)
+0 th_val_so_ass_cost_low(0)
+0 th_val_te_ass_soc_mixed(0)
+1 th_val_te_ass_env_land(0)
+1 ideal_h_yo_(2)
+0 val_te_ass_soc_single(0)
+0 val_di_ass_danger_low(1)
+0 val_yo_ass_cost_high(1)
+0 th_val_sq_ass_cost_low(0)
+0 th_val_so_ass_danger_high(0)
+0 th_val_di_ass_cost_med(2)
+0 val_te_ass_danger_low(2)
+1 ideal_h_ru_(2)
+1 val_sq_ass_loc_indoor(0)
+0 th_val_di_ass_cost_low(0)
+0 th_val_so_ass_intens_med(0)
+0 th_val_sw_ass_soc_single(1)
+1 val_ru_ass_env_land(1)
+0 val_te_ass_intens_high(0)
+0 val_di_ass_danger_med(0)
+0 th_val_te_ass_danger_high(2)
+0 th_val_yo_ass_intens_high(0)
+1 val_yo_ass_danger_low(0)
+0 val_hr_ass_intens_high(0)
+0 th_val_sw_ass_soc_team(2)
+0 val_di_ass_soc_mixed(2)
+0 val_di_ass_env_land(1)
+0 th_val_sw_ass_cost_med(2)
+0 th_val_sw_ass_loc_mixed(0)
+0 th_val_te_ass_danger_high(0)
+0 th_val_sw_ass_cost_med(0)
+0 th_val_so_ass_cost_low(1)
+0 val_yo_ass_env_water(2)
+1 val_sq_ass_danger_med(0)
+0 th_val_ru_ass_danger_high(1)
+1 val_te_ass_loc_mixed(1)
+0 th_val_hr_ass_cost_low(0)
+0 th_val_hr_ass_env_water(2)
+0 th_val_so_ass_intens_low(1)
+0 th_val_yo_ass_cost_low(2)
+0 val_so_ass_intens_high(1)
+0 th_val_yo_ass_soc_team(2)
+0 val_di_ass_intens_high(1)
+0 th_val_sw_ass_soc_single(0)
+0 th_val_sw_ass_soc_team(0)
+0 val_yo_ass_danger_high(1)
+0 val_so_ass_loc_indoor(0)
+1 val_di_ass_soc_single(1)
+1 val_sq_ass_env_land(1)
+0 th_val_hr_ass_env_water(0)
+0 th_val_hr_ass_loc_mixed(1)
+0 th_val_ru_ass_loc_outdoor(1)
+0 th_val_yo_ass_danger_med(2)
+1 val_sw_ass_cost_med(0)
+0 val_hr_ass_cost_med(2)
+0 th_val_di_ass_soc_team(1)
+0 val_yo_ass_intens_high(1)
+0 th_val_ru_ass_cost_low(2)
+0 th_val_di_ass_env_land(2)
+0 th_val_te_ass_cost_high(0)
+0 th_ideal_h_te_(1)
+1 val_yo_ass_intens_low(0)
+0 justif_h_sw_(0)
+0 val_sw_ass_env_land(2)
+1 val_sq_ass_intens_med(0)
+0 justif_h_di_(0)
+0 val_hr_ass_soc_team(1)
+0 val_sw_ass_cost_high(2)
+1 val_yo_ass_soc_single(0)
+0 val_sq_ass_env_water(2)
+0 val_hr_ass_loc_indoor(2)
+0 th_val_di_ass_intens_high(2)
+1 val_so_ass_soc_team(1)
+0 val_ru_ass_cost_med(2)
+1 val_di_ass_cost_high(1)
+0 val_hr_ass_intens_high(1)
+0 val_yo_ass_loc_outdoor(1)
+0 th_val_sw_ass_env_land(2)
+0 th_val_ru_ass_soc_team(1)
+1 val_sq_ass_loc_indoor(2)
+0 th_val_ru_ass_cost_high(0)
+1 val_so_ass_danger_med(2)
+0 val_sw_ass_loc_outdoor(1)
+0 ideal_h_sw_(0)
+1 val_so_ass_loc_mixed(2)
+1 val_so_ass_env_land(2)
+0 th_val_so_ass_loc_outdoor(1)
+0 th_val_te_ass_loc_mixed(2)
+0 th_val_so_ass_env_land(0)
+0 th_val_sq_ass_loc_mixed(2)
+0 th_ideal_h_di_(0)
+0 th_val_so_ass_danger_med(2)
+0 th_val_di_ass_loc_mixed(1)
+0 th_val_hr_ass_danger_low(2)
+1 val_so_ass_intens_med(1)
+1 val_te_ass_cost_high(2)
+0 th_val_hr_ass_soc_single(0)
+1 val_te_ass_intens_med(2)
+0 val_yo_ass_env_water(0)
+1 ideal_h_te_(1)
+0 th_val_hr_ass_env_land(1)
+1 val_ru_ass_danger_med(1)
+0 val_hr_ass_env_water(2)
+0 th_val_so_ass_loc_mixed(1)
+0 th_val_so_ass_soc_single(2)
+0 th_val_di_ass_danger_high(0)
+0 th_val_di_ass_soc_team(0)
+0 val_sw_ass_cost_low(0)
+0 th_val_sq_ass_intens_low(1)
+0 th_val_te_ass_env_water(2)
+1 ideal_h_so_(0)
+0 th_val_so_ass_loc_indoor(1)
+0 th_val_yo_ass_danger_high(2)
+1 val_sq_ass_danger_med(1)
+0 th_val_sw_ass_cost_low(1)
+0 val_sq_ass_intens_low(1)
+1 val_ru_ass_intens_high(2)
+0 th_val_so_ass_danger_low(2)
+0 th_val_sq_ass_soc_mixed(0)
+0 val_yo_ass_soc_team(0)
+0 th_val_sq_ass_soc_team(2)
+0 th_val_yo_ass_intens_high(2)
+0 val_te_ass_cost_low(2)
+0 th_val_te_ass_cost_high(2)
+0 val_so_ass_intens_low(2)
+1 val_di_ass_intens_low(0)
+0 th_val_so_ass_soc_team(1)
+0 justif_h_sw_(1)
+0 val_te_ass_env_water(0)
+0 th_val_ru_ass_loc_indoor(1)
+0 th_val_di_ass_env_water(1)
+0 th_val_yo_ass_soc_mixed(2)
+0 th_val_hr_ass_danger_low(1)
+1 val_sq_ass_soc_mixed(0)
+0 justif_h_ru_(0)
+1 val_sq_ass_env_land(0)
+0 val_so_ass_cost_high(1)
+0 th_val_di_ass_env_water(2)
+0 th_val_di_ass_soc_single(0)
+0 th_val_so_ass_env_water(2)
+0 th_val_hr_ass_soc_mixed(1)
+0 th_val_te_ass_soc_team(1)
+0 val_yo_ass_soc_mixed(0)
+0 th_val_di_ass_loc_mixed(0)
+0 th_val_hr_ass_cost_med(1)
+0 th_val_ru_ass_loc_outdoor(0)
+0 val_sw_ass_cost_low(2)
+0 val_te_ass_env_water(2)
+1 val_hr_ass_loc_outdoor(2)
+1 val_yo_ass_intens_low(2)
+0 th_val_sq_ass_danger_high(1)
+1 r_(1,0)
+0 th_val_di_ass_danger_high(2)
+0 th_val_sq_ass_intens_high(1)
+0 val_di_ass_cost_med(0)
+0 val_hr_ass_loc_indoor(1)
+0 th_val_di_ass_cost_low(2)
+0 th_val_so_ass_cost_high(0)
+0 th_val_hr_ass_loc_indoor(0)
+1 val_sw_ass_danger_low(0)
+0 val_ru_ass_env_water(1)
+0 th_val_yo_ass_danger_high(1)
+0 val_ru_ass_danger_low(2)
+0 th_val_di_ass_intens_low(1)
+0 th_val_di_ass_env_water(0)
+0 th_val_ru_ass_loc_indoor(2)
+0 justif_h_sq_(1)
+0 th_val_hr_ass_loc_mixed(0)
+1 val_yo_ass_cost_med(2)
+1 val_di_ass_cost_high(0)
+0 th_ideal_h_yo_(2)
+0 th_val_hr_ass_env_water(1)
+0 ideal_h_sw_(2)
+1 val_so_ass_soc_team(2)
+0 val_di_ass_cost_low(2)
+0 th_val_sq_ass_soc_mixed(1)
+0 th_val_sw_ass_soc_mixed(2)
+0 val_yo_ass_env_water(1)
+0 th_val_ru_ass_loc_mixed(1)
+0 th_val_sw_ass_danger_high(2)
+1 ideal_h_so_(1)
+0 val_hr_ass_cost_med(0)
+0 th_ideal_h_yo_(0)
+0 val_sq_ass_loc_mixed(1)
+0 th_val_so_ass_soc_team(2)
+0 th_val_hr_ass_intens_high(0)
+0 val_te_ass_danger_low(0)
+0 th_val_sq_ass_intens_high(0)
+0 val_di_ass_loc_outdoor(2)
+0 val_sw_ass_danger_high(2)
+0 th_ideal_h_di_(1)
+0 th_val_di_ass_intens_low(0)
+0 th_val_ru_ass_soc_mixed(0)
+0 th_ideal_h_sw_(2)
+0 val_sw_ass_loc_indoor(0)
+0 th_val_ru_ass_env_land(0)
+0 th_val_so_ass_loc_outdoor(2)
+1 val_sw_ass_soc_single(1)
+1 val_yo_ass_env_land(2)
+0 th_ideal_h_yo_(1)
+0 val_sq_ass_intens_high(0)
+0 th_val_di_ass_danger_med(2)
+1 val_so_ass_env_land(0)
+0 th_val_hr_ass_cost_low(2)
+0 th_val_sq_ass_env_water(0)
+1 val_te_ass_soc_mixed(1)
+0 th_val_te_ass_intens_low(2)
+0 val_di_ass_soc_mixed(1)
+0 val_yo_ass_loc_indoor(2)
+0 th_val_hr_ass_danger_high(0)
+0 ideal_h_di_(0)
+0 val_hr_ass_loc_mixed(2)
+0 th_val_di_ass_soc_mixed(1)
+1 val_di_ass_loc_mixed(2)
+0 th_val_so_ass_loc_indoor(2)
+0 justif_h_ru_(2)
+0 val_ru_ass_cost_high(1)
+1 ideal_h_hr_(2)
+1 val_hr_ass_intens_low(2)
+1 val_so_ass_loc_mixed(1)
+0 justif_h_hr_(0)
+1 ideal_h_hr_(0)
+0 val_so_ass_intens_low(1)
+0 val_hr_ass_soc_mixed(1)
+1 val_so_ass_cost_med(0)
+0 th_val_hr_ass_cost_high(0)
+0 th_val_so_ass_cost_med(1)
+1 val_hr_ass_soc_single(2)
+0 th_ideal_h_hr_(2)
+0 val_hr_ass_intens_med(0)
+0 val_so_ass_soc_mixed(1)
+0 val_sq_ass_cost_med(2)
+1 val_te_ass_intens_med(1)
+0 justif_h_yo_(1)
+0 val_ru_ass_intens_med(2)
+0 th_val_hr_ass_loc_outdoor(0)
+1 val_hr_ass_cost_high(2)
+0 val_hr_ass_danger_med(0)
+1 val_yo_ass_danger_low(1)
+0 th_val_te_ass_intens_low(1)
+0 val_so_ass_danger_high(0)
+0 th_val_di_ass_intens_low(2)
+0 th_val_ru_ass_cost_med(2)
+0 th_val_di_ass_cost_med(1)
+0 th_val_sq_ass_loc_indoor(1)
+0 val_sq_ass_cost_low(0)
+0 val_yo_ass_cost_high(0)
+0 th_val_te_ass_soc_single(1)
+0 th_val_yo_ass_env_land(2)
+1 val_hr_ass_loc_outdoor(1)
+0 th_val_so_ass_cost_med(2)
+0 th_val_yo_ass_cost_med(2)
+0 th_val_ru_ass_danger_med(0)
+0 th_val_ru_ass_intens_med(2)
+0 th_val_sq_ass_soc_team(0)
+0 th_val_sw_ass_intens_med(0)
+1 ideal_h_te_(0)
+0 th_val_ru_ass_env_land(1)
+0 justif_h_ru_(1)
+0 val_ru_ass_loc_indoor(0)
+0 th_val_yo_ass_env_water(0)
+0 th_ideal_h_te_(0)
+1 val_so_ass_env_land(1)
+0 th_val_sw_ass_danger_med(2)
+0 val_yo_ass_intens_high(0)
+0 val_di_ass_loc_outdoor(1)
+0 val_yo_ass_soc_team(2)
+0 th_val_sq_ass_cost_high(2)
+1 justif_h_te_(0)
+0 th_val_hr_ass_loc_indoor(2)
+0 val_so_ass_cost_high(0)
+0 th_val_yo_ass_cost_high(1)
+0 th_val_ru_ass_env_water(0)
+0 th_val_te_ass_danger_med(1)
+0 th_val_sq_ass_danger_low(2)
+0 val_hr_ass_danger_med(2)
+0 val_te_ass_danger_low(1)
+0 val_ru_ass_loc_indoor(1)
+0 th_val_te_ass_soc_single(2)
+0 val_so_ass_cost_high(2)
+0 th_val_sw_ass_env_water(2)
+1 val_hr_ass_soc_single(1)
+0 th_val_di_ass_soc_mixed(2)
+0 th_val_so_ass_cost_med(0)
+0 th_val_so_ass_intens_med(2)
+0 val_di_ass_danger_med(1)
+0 th_val_yo_ass_env_water(2)
+0 th_val_ru_ass_intens_high(0)
+1 val_ru_ass_danger_med(0)
+0 val_yo_ass_danger_high(0)
+0 th_val_so_ass_intens_high(1)
+0 th_val_sq_ass_loc_outdoor(0)
+1 val_yo_ass_danger_low(2)
+0 val_te_ass_soc_team(0)
+0 val_ru_ass_env_water(0)
+0 val_yo_ass_loc_outdoor(2)
+0 th_val_di_ass_cost_med(0)
+0 th_val_hr_ass_env_land(2)
+0 val_so_ass_danger_high(1)
+1 val_hr_ass_intens_low(1)
+1 val_ru_ass_intens_high(1)
+0 th_val_hr_ass_soc_mixed(0)
+0 justif_h_hr_(2)
+0 th_val_so_ass_cost_high(2)
+1 val_so_ass_loc_mixed(0)
+1 val_te_ass_loc_mixed(2)
+0 th_val_yo_ass_intens_low(0)
+1 val_te_ass_env_land(1)
+0 val_te_ass_loc_indoor(2)
+0 th_val_te_ass_danger_high(1)
+0 val_ru_ass_soc_mixed(0)
+0 th_val_yo_ass_danger_med(1)
+0 th_val_so_ass_danger_med(1)
+0 val_sw_ass_danger_high(0)
+1 val_hr_ass_env_land(1)
+0 val_sw_ass_danger_high(1)
+0 th_val_sw_ass_loc_indoor(0)
+0 val_sw_ass_loc_indoor(2)
+0 th_val_di_ass_soc_mixed(0)
+0 th_val_sq_ass_danger_low(0)
+0 th_val_ru_ass_loc_mixed(2)
+0 th_val_so_ass_intens_high(2)
+0 th_val_te_ass_soc_single(0)
+0 val_hr_ass_intens_med(2)
+0 th_val_sq_ass_danger_med(1)
+0 th_val_sw_ass_soc_mixed(0)
+1 ideal_h_so_(2)
+0 th_val_sq_ass_intens_med(0)
+0 val_ru_ass_danger_low(0)
+0 val_so_ass_loc_outdoor(1)
+0 val_te_ass_env_water(1)
+0 th_val_sq_ass_cost_med(2)
+0 th_val_te_ass_loc_indoor(1)
+0 th_val_ru_ass_danger_med(1)
+0 th_ideal_h_hr_(1)
+0 th_val_ru_ass_soc_mixed(1)
+0 val_yo_ass_danger_med(0)
+0 th_val_sw_ass_danger_low(1)
+1 ideal_h_hr_(1)
+0 val_sq_ass_loc_outdoor(2)
+0 val_sw_ass_danger_med(2)
+0 th_val_hr_ass_intens_low(0)
+0 th_val_sq_ass_intens_low(0)
+0 th_val_ru_ass_intens_low(2)
+1 val_ru_ass_cost_low(1)
+0 th_val_hr_ass_danger_low(0)
+0 justif_h_yo_(0)
+1 ideal_h_yo_(0)
+0 th_val_so_ass_intens_high(0)
+0 val_sq_ass_loc_mixed(2)
+1 val_sq_ass_loc_indoor(1)
+0 th_val_so_ass_intens_low(0)
+0 val_so_ass_cost_low(0)
+0 val_ru_ass_danger_low(1)
+0 th_val_yo_ass_loc_outdoor(0)
+0 th_ideal_h_sq_(0)
+0 th_val_ru_ass_cost_low(0)
+0 th_val_di_ass_cost_high(0)
+0 th_val_te_ass_loc_outdoor(1)
+1 r_(2,0)
+0 th_val_sw_ass_loc_outdoor(1)
+0 th_val_sq_ass_soc_single(0)
+0 val_ru_ass_soc_team(0)
+0 th_val_so_ass_danger_high(1)
+0 th_val_hr_ass_soc_team(0)
+0 th_val_sw_ass_intens_high(1)
+1 val_so_ass_intens_med(2)
+0 val_sw_ass_cost_high(0)
+0 th_val_hr_ass_intens_low(1)
+0 th_ideal_h_ru_(2)
+0 val_yo_ass_soc_mixed(2)
+1 val_sq_ass_cost_high(1)
+0 val_yo_ass_cost_low(2)
+0 th_val_ru_ass_soc_mixed(2)
+0 th_val_yo_ass_danger_med(0)
+0 val_te_ass_loc_outdoor(2)
+0 th_val_sq_ass_env_water(1)
+0 th_val_yo_ass_env_water(1)
+0 val_di_ass_intens_high(2)
+0 val_ru_ass_loc_indoor(2)
+0 th_val_te_ass_cost_low(1)
+1 val_te_ass_cost_high(0)
+0 th_val_te_ass_soc_mixed(1)
+1 r_(2,1)
+0 th_ideal_h_so_(2)
+0 val_hr_ass_danger_med(1)
+0 th_val_ru_ass_intens_high(1)
+0 val_hr_ass_danger_low(1)
+0 th_val_sq_ass_loc_mixed(1)
+0 val_ru_ass_soc_mixed(1)
+0 val_hr_ass_soc_mixed(2)
+0 th_val_sq_ass_danger_high(0)
+1 val_yo_ass_loc_mixed(1)
+0 th_val_sw_ass_danger_high(0)
+0 val_ru_ass_loc_mixed(1)
+1 ideal_h_sq_(2)
+0 th_val_sw_ass_intens_high(0)
+0 th_val_ru_ass_intens_med(1)
+0 ideal_h_sw_(1)
+1 val_te_ass_cost_high(1)
+0 th_val_te_ass_cost_med(1)
+0 val_sq_ass_cost_low(1)
+0 th_val_te_ass_loc_outdoor(2)
+0 th_val_ru_ass_soc_team(2)
+1 ideal_h_te_(2)
+1 val_di_ass_danger_high(1)
+0 val_te_ass_danger_high(0)
+1 val_ru_ass_cost_low(2)
+0 val_yo_ass_cost_low(0)
+1 val_te_ass_env_land(0)
+0 th_val_di_ass_intens_med(0)
+1 val_ru_ass_soc_single(2)
+0 th_val_hr_ass_soc_mixed(2)
+1 val_sq_ass_soc_mixed(2)
+1 val_di_ass_loc_mixed(0)
+0 th_val_so_ass_loc_outdoor(0)
+1 val_hr_ass_cost_high(0)
+0 val_sw_ass_cost_high(1)
+0 th_val_hr_ass_loc_indoor(1)
+0 th_val_sw_ass_soc_team(1)
+0 val_di_ass_danger_low(2)
+0 val_di_ass_loc_indoor(1)
+0 th_val_sq_ass_cost_low(2)
+0 th_val_hr_ass_cost_med(0)
+1 val_sw_ass_soc_single(2)
+0 th_val_yo_ass_soc_team(0)
+1 val_di_ass_danger_high(2)
+1 val_hr_ass_env_land(0)
+1 val_so_ass_danger_med(0)
+0 th_val_sq_ass_cost_high(1)
+0 val_yo_ass_danger_med(2)
+1 val_yo_ass_cost_med(1)
+1 val_yo_ass_env_land(0)
+0 val_sq_ass_cost_med(1)
+0 val_sq_ass_env_water(0)
+0 th_val_di_ass_loc_outdoor(1)
+0 th_val_yo_ass_intens_high(1)
+0 val_di_ass_danger_low(0)
+0 val_te_ass_danger_high(2)
+0 val_sq_ass_loc_outdoor(0)
+0 th_val_hr_ass_danger_med(0)
+0 th_val_sq_ass_env_land(1)
+0 th_val_hr_ass_danger_high(2)
+0 th_val_di_ass_danger_low(1)
+1 val_sw_ass_intens_high(0)
+0 val_ru_ass_danger_high(2)
+0 th_val_di_ass_cost_low(1)
+0 val_ru_ass_intens_med(1)
+0 val_te_ass_cost_med(1)
+0 th_val_yo_ass_intens_low(2)
+0 th_val_ru_ass_intens_low(1)
+0 val_di_ass_intens_med(2)
+0 th_val_di_ass_danger_high(1)
+1 val_sw_ass_env_water(1)
+0 val_te_ass_intens_high(1)
+1 val_yo_ass_loc_mixed(2)
+0 val_di_ass_cost_med(2)
+0 val_so_ass_intens_low(0)
+0 val_di_ass_loc_indoor(0)
+0 th_val_sq_ass_soc_single(2)
+0 val_so_ass_intens_high(2)
+0 th_val_yo_ass_danger_high(0)
+1 val_yo_ass_cost_med(0)
+0 th_val_te_ass_intens_med(2)
+1 val_so_ass_soc_team(0)
+0 th_ideal_h_sq_(1)
+0 val_sw_ass_env_land(1)
+0 th_val_sq_ass_loc_mixed(0)
+1 val_hr_ass_intens_low(0) 

@@ -1,0 +1,1 @@
+nnf((p1 or p2) and <a>not p1 and not p1)

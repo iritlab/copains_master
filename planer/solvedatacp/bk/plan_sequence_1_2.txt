@@ -1,0 +1,1 @@
+inform[not do(2,takedrug) => badhealth(2)], 

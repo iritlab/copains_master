@@ -1,0 +1,158 @@
+B. solve not asked -- aca_EL INICIO START - JFDX - CogPla
+Estamos ACA ######################################################################### Estamos ACA 
+
+
+
+1
+0 - Propositional Language :  ((((bigand $i,$j in [0..2],[0..2]:
+fv1($j)
+end
+ ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ x_env_land_x($j))
+end
+) ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ x_intens_med_x($j))
+end
+) ⋀ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⇒ ¬x_loc_indoor_x($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ th_val_te_ass_loc_mixed($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ th_val_te_ass_intens_med($j))
+end
+ ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ th_val_te_ass_env_land($j))
+end
+ ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_di_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_di_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_hr_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_hr_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_ru_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_ru_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_so_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_so_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_sq_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_sq_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_sw_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_sw_($j))
+end
+) ⋀ ((bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_te_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_te_($j))
+end
+) ⋀ (bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬th_ideal_h_yo_($j))
+end
+ ⋁ bigand $i,$j in [0..2],[0..2]:
+(r_($i,$j) ⋀ ¬justif_h_yo_($j))
+end
+))))))))))))
+
+
+ Translation to Prop-Lang ===> completed ZZZ ... 
+
+0 justif_h_yo_(2)
+0 th_ideal_h_te_(1)
+0 th_ideal_h_ru_(1)
+0 x_loc_indoor_x(0)
+0 justif_h_sw_(0)
+0 justif_h_di_(0)
+1 th_val_te_ass_intens_med(0)
+1 th_val_te_ass_intens_med(2)
+0 justif_h_di_(2)
+0 justif_h_so_(0)
+0 th_ideal_h_di_(0)
+0 th_ideal_h_so_(0)
+0 th_ideal_h_sq_(2)
+0 th_ideal_h_so_(1)
+1 th_val_te_ass_loc_mixed(0)
+0 justif_h_sw_(1)
+0 justif_h_ru_(0)
+0 th_ideal_h_hr_(0)
+0 x_loc_indoor_x(2)
+1 r_(1,0)
+1 x_intens_med_x(1)
+0 justif_h_so_(1)
+0 justif_h_di_(1)
+0 justif_h_sq_(1)
+1 fv1(2)
+1 th_val_te_ass_env_land(2)
+0 th_ideal_h_yo_(2)
+0 th_ideal_h_yo_(0)
+0 justif_h_so_(2)
+0 th_ideal_h_di_(1)
+1 th_val_te_ass_env_land(1)
+0 th_ideal_h_sw_(2)
+1 x_intens_med_x(2)
+0 th_ideal_h_yo_(1)
+1 r_(0,0)
+0 justif_h_ru_(2)
+0 justif_h_hr_(0)
+0 justif_h_te_(2)
+0 th_ideal_h_hr_(2)
+0 justif_h_yo_(1)
+0 x_loc_indoor_x(1)
+1 x_env_land_x(1)
+0 justif_h_ru_(1)
+0 th_ideal_h_te_(0)
+1 r_(1,1)
+0 th_ideal_h_sw_(0)
+0 justif_h_te_(0)
+0 th_ideal_h_ru_(0)
+1 x_env_land_x(2)
+0 justif_h_sq_(0)
+0 justif_h_hr_(2)
+1 r_(2,2)
+0 justif_h_te_(1)
+1 th_val_te_ass_intens_med(1)
+1 r_(0,1)
+0 th_ideal_h_hr_(1)
+0 justif_h_yo_(0)
+0 th_ideal_h_sq_(0)
+1 r_(2,0)
+0 justif_h_sw_(2)
+0 th_ideal_h_ru_(2)
+1 r_(2,1)
+0 th_ideal_h_so_(2)
+0 th_ideal_h_sw_(1)
+1 th_val_te_ass_loc_mixed(1)
+0 justif_h_hr_(1)
+0 th_ideal_h_te_(2)
+1 r_(0,2)
+1 fv1(1)
+1 x_intens_med_x(0)
+0 justif_h_sq_(2)
+1 r_(1,2)
+0 th_ideal_h_di_(2)
+1 th_val_te_ass_loc_mixed(2)
+1 th_val_te_ass_env_land(0)
+1 fv1(0)
+0 th_ideal_h_sq_(1)
+1 x_env_land_x(0) 

@@ -1,0 +1,5 @@
+red ({2}rel(1) and
+x_env_land_x and
+x_intens_med_x and
+not x_loc_indoor_x and
+x_cost_high_x => x_soc_mixed_x)

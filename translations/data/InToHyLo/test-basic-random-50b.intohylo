@@ -1,0 +1,1 @@
+nnf([a] ((<a> ((not (([a] p3) => p5 => p2) => (((p2 => p3) or (p3 => p5)) and (<a> (p3 or p2)))) or (<a> ((<a> [a] p5) and ([a] (p1 => p4)))))) => not ((<a> ((p2 => p4) or (<a> p1))) or not not not p2 or not (p2 or p4) and (<a> (p4 or p5)) and ([a] ((p2 => p5) => p2 => p4)))) )

@@ -1,0 +1,1 @@
+nnf(<a>not  (not  [a]not  p1 or [a][a]not  p1) or <a><a>[a]p2 or [a]([a]p1 or [a]not  [a]p1))
